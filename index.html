@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrestling Role-Play Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wrestling Role-Play Game</h1>
+        <div id="game">
+            <div id="story">
+                <p>Welcome to the world of wrestling! Your journey begins at the local wrestling circuit. Make strategic decisions to rise through the ranks.</p>
+            </div>
+            <div id="options">
+                <button onclick="makeChoice('train')">Train Hard</button>
+                <button onclick="makeChoice('network')">Network with Promoters</button>
+                <button onclick="makeChoice('match')">Request a Match</button>
+            </div>
+            <div id="stats">
+                <p><strong>Experience:</strong> <span id="experience">0</span></p>
+                <p><strong>Popularity:</strong> <span id="popularity">0</span></p>
+                <p><strong>Connections:</strong> <span id="connections">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
